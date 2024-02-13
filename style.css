@@ -3,3 +3,60 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+body{
+  background: #D4A76A;
+
+}
+
+h1 {
+  display: inline;
+  padding-right: 200px;
+}
+
+h2{
+  text-align: center;
+}
+
+.header {
+  background: #FFDBAA;
+  color: #553100;
+  font-size: 30px;
+  border: 1px solid #333333;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-buttons {
+  background-color: #805215;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+
+}
+
+.block-buttons {
+  background-color: #805215;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  height: 50px;
+  width: 90%;
+  margin-left: 5%;
+
+}
+
+.block-section {
+  padding: 20px;
+  display: flex;
+
+}
+
+.block {
+  display: inline;
+  width: 300px;
+  background-color: white;
+  border: 1px solid #333333;
+  text-decoration: none;
+}
+
